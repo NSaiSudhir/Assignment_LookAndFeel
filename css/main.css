@@ -147,6 +147,10 @@ body {
         text-align: center; 
     }
 
+    .content-wrapper p {
+        margin-bottom: 50px;
+    }
+
 .team-member {
     margin: 20px;
     padding: 20px;
@@ -170,5 +174,14 @@ body {
     margin-top: 10px;
     text-align: left;
 }
+.history-title {
+    text-align: center; 
+    margin-top: 60px; 
+}
 
+.history-description {
+    text-align: justify;
+    margin: auto; 
+    max-width: 80%; 
+}
 </style >

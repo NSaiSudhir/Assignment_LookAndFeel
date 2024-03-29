@@ -130,3 +130,45 @@
 .tagline {
     font-size: 100%; /* Adjust font size as needed */
 }
+
+/*CSS for About Section*/
+<style >
+body {
+    font-family: 'Georgia', serif; 
+}
+
+.content-wrapper {
+    margin: auto;
+    max-width: 960px;
+    text-align: justify; 
+}
+
+    .content-wrapper h1 {
+        text-align: center; 
+    }
+
+.team-member {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center; 
+}
+
+.team-photo {
+    width: 150px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.team-description h2 {
+    text-align: center;
+}
+
+.team-description {
+    margin-top: 10px;
+    text-align: left;
+}
+
+</style >

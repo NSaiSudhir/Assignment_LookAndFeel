@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\dingweiguo\\source\\repos\\EliteEscapes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dingweiguo\\source\\repos\\EliteEscapes\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dingweiguo\\source\\repos\\EliteEscapes\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dingweiguo\\source\\repos\\EliteEscapes\\AboutPage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AboutPage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +26,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\dingweiguo\\source\\repos\\EliteEscapes\\index.html",
-              "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "C:\\Users\\dingweiguo\\source\\repos\\EliteEscapes\\index.html",
-              "RelativeToolTip": "index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwAAAAaAAAA",
+              "DocumentIndex": 1,
+              "Title": "AboutPage.html",
+              "DocumentMoniker": "C:\\Users\\dingweiguo\\source\\repos\\EliteEscapes\\AboutPage.html",
+              "RelativeDocumentMoniker": "AboutPage.html",
+              "ToolTip": "C:\\Users\\dingweiguo\\source\\repos\\EliteEscapes\\AboutPage.html",
+              "RelativeToolTip": "AboutPage.html",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAowD4AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-04-02T16:31:23.312Z",
+              "WhenOpened": "2024-04-02T18:44:01.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "main.css",
               "DocumentMoniker": "C:\\Users\\dingweiguo\\source\\repos\\EliteEscapes\\css\\main.css",
               "RelativeDocumentMoniker": "css\\main.css",
               "ToolTip": "C:\\Users\\dingweiguo\\source\\repos\\EliteEscapes\\css\\main.css",
               "RelativeToolTip": "css\\main.css",
-              "ViewState": "AQIAAIAAAAAAAAAAAAAowJMAAAAXAAAA",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAowJoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-03-29T13:38:15.038Z",
               "EditorCaption": ""

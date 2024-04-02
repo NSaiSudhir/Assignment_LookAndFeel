@@ -1,4 +1,4 @@
-* {
+﻿* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -150,6 +150,31 @@ body {
 
     .content-wrapper p {
         margin-bottom: 50px;
+    }
+
+
+
+.about-wrapper {
+    display: flex;
+    justify-content: center; /* 在主轴上居中对齐子项 */
+    align-items: center; /* 在交叉轴上居中对齐子项 */
+    gap: 20px; /* 根据需要增加子项之间的空间 */
+    margin: 20px 0; /* 上下外边距，可根据需求调整 */
+}
+
+.about-text {
+    flex-basis: 50%; /* 文本部分占据可用空间的50% */
+}
+
+.about-image {
+    flex-basis: 30%; /* 图片部分占据可用空间的30% */
+    display: flex;
+    justify-content: center; /* 图片容器内部居中对齐图片 */
+}
+
+    .about-image img {
+        max-width: 100%; /* 图片最大宽度为其容器的100% */
+        height: auto; /* 高度自动调整以保持图片比例 */
     }
 
 .team-member {

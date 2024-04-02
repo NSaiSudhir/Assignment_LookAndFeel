@@ -144,7 +144,8 @@ body {
 }
 
     .content-wrapper h1 {
-        text-align: center; 
+        text-align: center;
+        color: skyblue;
     }
 
     .content-wrapper p {
@@ -170,7 +171,13 @@ body {
     text-align: center;
 }
 
-.team-description {
+.members-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+    .team-description {
     margin-top: 10px;
     text-align: left;
 }

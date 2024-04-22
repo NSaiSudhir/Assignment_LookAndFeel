@@ -717,21 +717,33 @@ body {
     z-index: -1;
 }
 @media only screen and (max-width: 768px) {
-    #first_img{
-        content: url('../img/dubai.avif');
-        height: auto;
+    #currentPackage {
+        width: 100%;
+        height: 100vh; /* vh is a unit for viewport height */
+        overflow: hidden;
     }
-    .dublin_firstimg{
-        content: url('../img/dublin_mob.jpg')
+    #currentPackage #first_img {
+        content: url('../img/dubai.avif');
+        height: 1000px;
+        object-fit: cover;
+    }
+    .dublin_firstimg {
+        content: url('../img/dublin_mob.jpg');
+        height: 1000px;
     }
 
     .bali_firstimg {
         content: url('../img/bali.jpg');
+        height: 1000px;
     }
-    .france_firstimg{
+    .france_firstimg {
         content: url('../img/france.jpg');
+        height: 1000px;
     }
+    .italy_firstimg{
+        height: 1000px;
 
+    }
 
     .package:hover {
         transform: scale(1.05);

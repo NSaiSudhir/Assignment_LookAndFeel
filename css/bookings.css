@@ -115,3 +115,18 @@ section{
     cursor: pointer;
     z-index: 1; /* Ensures the icon appears above other content */
 }
+
+@media only screen and (max-width: 768px) {
+    .card{
+        width:85%;
+    }
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    .cost::before {
+        content: attr(data-text-small); /* Change button text for small screens */
+    }
+
+}

@@ -333,7 +333,7 @@ body {
 /*About us Styles*/
 .content-wrapper {
     margin: auto;
-    max-width: 100%;
+    max-width: 960px;
     text-align: justify;
 }
 
@@ -429,6 +429,7 @@ body {
     color: #968005;
     font-size: 20px;
 }
+
 
 
 /* Footer Styles */

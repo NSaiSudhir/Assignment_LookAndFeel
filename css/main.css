@@ -184,6 +184,7 @@ body {
     height: 400px;
 }
 
+
     .package .price {
         position: absolute;
         top: 10px; /* Adjust this value to position the text vertically */
@@ -665,8 +666,8 @@ body {
         width: 80%;
         max-width: 400px;
     }
+    
 }
-
 
 
 
@@ -765,6 +766,11 @@ body {
         display: none;
     }
 
+    .graph {
+        margin: 0 20px 20px;
+        width: calc(70% - 30px);
+        object-fit: cover;
+    }
 
 }
 
@@ -785,4 +791,17 @@ body {
     margin: 0 auto; /* Center horizontally using margin */
     border-radius: 10px;
 
+}
+
+.graph-container {
+    display: flex;
+    justify-content: center;
+}
+
+.graph {
+    width: calc(30% - 40px);
+    position: relative;
+    /* Optional: Set other styles for the graph container */
+    /* width: 800px; */
+    /* Add other styles as needed */
 }

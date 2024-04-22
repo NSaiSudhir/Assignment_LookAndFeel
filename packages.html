@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
 <head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <link rel="shortcut icon" href="img/logo1.png" type="image/png">
     <!-- Meta tags -->
     <meta charset="UTF-8">
@@ -36,46 +38,78 @@
         </nav>
     </header>
     <div style="width:100%">
-    <section id="home" class="packages">
-        <div class="package">
-            <a href="bali.html">
-                <img src="img/bali.jpg" alt="Package 1">
-                <div class="image-text">Bali</div>
-                <div class="price">$2045</div>
-            </a>
+        <section id="home" class="packages">
+            <div class="package">
+                <a href="bali.html">
+                    <img src="img/bali.jpg" alt="Package 1">
+                    <div class="image-text">Bali</div>
+                    <div class="price">$2045</div>
+                </a>
 
-        </div>
-        <div class="package">
-            <a href="france.html">
-                <img src="img/france.jpg" alt="Package 2">
-                <div class="image-text">France</div>
-                <div class="price">$3537</div>
-            </a>
-        </div>
-        <div class="package">
-            <a href="italy.html">
-                <img src="img/italy.jpg" alt="Package 3" href="">
-                <div class="image-text">Italy</div>
-                <div class="price">$2526</div>
-            </a>
-        </div>
+            </div>
+            <div class="package">
+                <a href="france.html">
+                    <img src="img/france.jpg" alt="Package 2">
+                    <div class="image-text">France</div>
+                    <div class="price">$3537</div>
+                </a>
+            </div>
+            <div class="package">
+                <a href="italy.html">
+                    <img src="img/italy.jpg" alt="Package 3" href="">
+                    <div class="image-text">Italy</div>
+                    <div class="price">$2526</div>
+                </a>
+            </div>
 
-        <div class="package">
-            <a href="dublin.html">
-                <img src="img/dublin.jpg" alt="Package 4">
-                <div class="image-text">Dublin</div>
-                <div class="price">$2175</div>
-            </a>
+            <div class="package">
+                <a href="dublin.html">
+                    <img src="img/dublin.jpg" alt="Package 4">
+                    <div class="image-text">Dublin</div>
+                    <div class="price">$2175</div>
+                </a>
+            </div>
+            <div class="package">
+                <a href="dubai.html">
+                    <img src="img/dubai.avif" alt="Package 5" href="dubai.html">
+                    <div class="image-text">Dubai</div>
+                    <div class="price">$3473</div>
+                </a>
+            </div>
+        </section>
+    </div>
+    <br />
+    <br />
+    <h1>Our bookings last year</h1><br /><br />
+    <div class="graph-container">
+        <div class="graph" style="width: 800px;">
+            <canvas id="visitorChart"></canvas>
         </div>
-        <div class="package">
-            <a href="dubai.html">
-                <img src="img/dubai.avif" alt="Package 5" href="dubai.html">
-                <div class="image-text">Dubai</div>
-                <div class="price">$3473</div>
-            </a>
-        </div>
-    </section>
-        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var ctx = document.getElementById('visitorChart').getContext('2d');
+            var visitorChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                    datasets: [{
+                        label: 'Number of Visitors',
+                        data: [120, 110, 130, 150, 300, 320, 450, 420, 250, 200, 160, 140],
+                        backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        });</script>
 
 </body>
 </html>

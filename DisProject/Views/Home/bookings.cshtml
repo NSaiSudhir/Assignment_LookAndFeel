@@ -1,0 +1,227 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="~/css/bookings.css">
+    <link rel="shortcut icon" href="~/img/logo1.png" type="image/png">
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="~/css/main.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Reference to JavaScript -->
+    <script src="~/js/main.js" defer></script>
+    <title>EliteEscapes</title>
+    <style>
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+            .button-container button {
+                width: 30%;
+                height: 40px; /* Height of the green box */
+
+                padding: 10px 20px;
+                border-radius: 10px;
+                border: none;
+                cursor: pointer;
+            }
+            #edit{
+                background-color: #fff;
+                color: #000;
+                margin: 5% 0% 5% 5%;
+            }
+            #book{
+                background-color: green;
+                color: white;
+                margin: 5% 10% 5% 0%;
+            }
+            #save{
+            width: 30%;
+            height: 40px; /* Height of the green box */
+
+            background-color: green;
+            color: white;
+            margin: 5% 25% 5% 72%;
+        }
+        .underline-input {
+           
+            border: none;
+            border-bottom: 1px solid black;
+            background-color: ;
+            margin: 10px 0;
+            padding: 5px;
+            width: 30%;
+            height: 20px;
+        }
+
+        .cost {
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <a asp-controller="Home" asp-action="Index" class="navbar-logo"><img src="~/img/logo1.png" style="float:left" alt="EliteEscapes Logo" id="logo"></a>
+            <a asp-controller="Home" asp-action="Index" class="navbar-item"><i class="fa fa-home fa-1x"></i>Home</a>
+            <a asp-controller="Home" asp-action="packages" class="navbar-item"><i class="fa fa-map-marked-alt fa-1x"></i>Places</a>
+            <a asp-controller="Home" asp-action="about" class="navbar-item"><i class="fa fa-info-circle fa-1x"></i>About</a>
+            <a asp-controller="Home" asp-action="feedback" class="navbar-item"><i class="fa fa-comments fa-1x"></i>Feedback</a>
+            <a class="menu-bars" href="#" onclick="showSidebar()"><i class="fa-solid fa-bars fa-2x" color="white"></i></a>
+        </nav>
+
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <a class="close-btn" href="#" onclick=hideSidebar()><i class="fa fa-times fa-2x" aria-hidden="true" color="white"></i></a>
+            <a asp-controller="Home" asp-action="Index" class="sidebar-item"><i class="fa fa-home fa-1x"></i>Home</a>
+            <a asp-controller="Home" asp-action="packages" class="sidebar-item"><i class="fa fa-map-marked-alt fa-1x"></i>Places</a>
+            <a asp-controller="Home" asp-action="about" class="sidebar-item"><i class="fa fa-info-circle fa-1x"></i>About</a>
+            <a asp-controller="Home" asp-action="feedback" class="sidebar-item"><i class="fa fa-comments fa-1x"></i>Feedback</a>
+        </nav>
+    </header>
+    <section>
+        <h1 id="heading">Bookings</h1><br />
+        <div class="card" style="margin-bottom: 10%">
+            <i class="fas fa-times delete-icon" id="delete"></i>
+@*             <img src="~/img/bali_cover.jpg" alt="Item Image" id="cartImg">
+ *@            <img src="~/img/italy_cover.jpg" alt="Item Image" id="cartImg">
+
+            <div class="card-content">
+                <h3>Trip Summary:</h3><br />
+                <b>No. of members:</b>
+                <br/>
+                <p id="people">1</p>
+                <select id="myDropdown" class="custom-dropdown" style="display:none">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select><br />
+                    <span><b>Mobile:</b> <p id="mobile" value="abc"></p>            <input type="text" class="underline-input" id="mob"></span><br />
+                    <span><b>Email:</b>   <p id="mail" value="xyz"></p>             <input type="text" class="underline-input" id="email"></span>
+            </div>
+            <p id="price"></p>
+
+            @* <div class="cost">
+                <p id="cost">Book</p>
+                <i class="fas fa-chevron-right"></i>anc
+            </div>
+            <div class="edit">
+                <p id="edit">Edit</p>
+                <i class="fas fa-chevron-right"></i>
+            </div> *@
+            <div class="button-container">
+                <button class="button-left" id="edit">Edit</button>
+                <div></div> <!-- Placeholder for spacing -->
+                <button class="button-right" id="book">Book</button>
+            </div>
+            <div class="button-container">
+                <button class="button-left" style="display:none">Edit</button>
+                <button class="button-right" id="save" style="display:none">Save</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        const btn3 = document.getElementById("book");
+        btn3.addEventListener('click', function (event) {
+            let email = document.getElementById("email").value;
+            if (email === '') {
+                window.alert('Enter a valid email id!');
+            }
+            else {
+                window.alert("Complete the payment by clciking on the link sent to your email address - " + email);
+            }
+
+        });
+
+
+            const btn2 = document.getElementById("save");
+        btn2.addEventListener('click', function (event) { 
+            document.getElementById("mobile").textContent = document.getElementById("mob").value;
+            document.getElementById("mail").textContent = document.getElementById("email").value;
+            document.getElementById("people").textContent = document.getElementById("myDropdown").value;
+
+            document.getElementById("mobile").style.display = "block";
+            document.getElementById("mail").style.display = "block";
+
+            document.getElementById("myDropdown").style.display = "none";
+
+            document.getElementById("mob").style.display = "none";
+            document.getElementById("email").style.display = "none";
+            document.getElementById("save").style.display = "none";
+
+            document.getElementById("edit").style.display = "block";
+            document.getElementById("book").style.display = "block";
+
+            document.getElementById("people").style.display = "block";
+        });
+
+
+          const btn1 = document.getElementById("edit");
+        btn1.addEventListener('click', function (event) {
+            document.getElementById("edit").style.display = "none";
+            document.getElementById("book").style.display = "none";
+            document.getElementById("mobile").style.display = "none";
+            document.getElementById("mail").style.display = "none";
+            document.getElementById("people").style.display = "none";
+
+            document.getElementById("myDropdown").style.display = "block";
+            document.getElementById("mob").style.display = 'block';
+            document.getElementById("email").style.display = 'block';
+            document.getElementById("save").style.display = "block";
+
+
+        });
+
+        const btn = document.getElementById("delete");
+        btn.addEventListener('click', function (event) {
+            console.log('cancel');
+            const element = document.querySelector('.card');
+            element.style.display = 'none';
+            document.getElementById("heading").textContent = "Select a valid package   :)";
+        });
+        
+        document.addEventListener("DOMContentLoaded", function () {
+            console.log(localStorage.img);
+
+            let currentUrl = window.location.href;
+            let lastIndex = currentUrl.lastIndexOf("/");
+            let result = currentUrl.substring(0, lastIndex);
+            console.log(result);
+            let updatedUrl =   "~/img/"+"dubai_cover.jpg";
+
+        //    document.getElementById("cartImg").src = updatedUrl;
+
+            document.getElementById('price').textContent = localStorage.price + " $";
+//            console.log(document.getElementById("price").textContent);
+            document.getElementById("heading").textContent = "Bookings";
+
+        });
+        const myDropdown = document.getElementById('myDropdown');
+
+        // Add onchange event listener to the dropdown
+        myDropdown.addEventListener('change', function (event) {
+            const selectedValue = event.target.value;
+            var cost = selectedValue * localStorage.price;
+            document.getElementById('price').textContent = localStorage.price * selectedValue + " $";
+            console.log(localStorage.price);
+        });
+
+    </script>
+</body>
+</html>

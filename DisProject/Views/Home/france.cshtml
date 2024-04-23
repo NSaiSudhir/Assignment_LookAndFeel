@@ -1,0 +1,63 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<head>
+    <link rel="shortcut icon" href="~/img/logo1.png" type="image/png">
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="~/css/main.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Reference to JavaScript -->
+    <script src="~/js/main.js" defer></script>
+    <title>EliteEscapes</title>
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <a asp-controller="Home" asp-action="Index" class="navbar-logo"><img src="~/img/logo1.png" style="float:left" alt="EliteEscapes Logo" id="logo"></a>
+            <a asp-controller="Home" asp-action="Index" class="navbar-item"><i class="fa fa-home fa-1x"></i>Home</a>
+            <a asp-controller="Home" asp-action="packages" class="navbar-item"><i class="fa fa-map-marked-alt fa-1x"></i>Places</a>
+            <a asp-controller="Home" asp-action="about" class="navbar-item"><i class="fa fa-info-circle fa-1x"></i>About</a>
+            <a asp-controller="Home" asp-action="feedback" class="navbar-item"><i class="fa fa-comments fa-1x"></i>Feedback</a>
+            <a class="menu-bars" href="#" onclick="showSidebar()"><i class="fa-solid fa-bars fa-2x" color="white"></i></a>
+        </nav>
+
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <a class="close-btn" href="#" onclick=hideSidebar()><i class="fa fa-times fa-2x" aria-hidden="true" color="white"></i></a>
+            <a asp-controller="Home" asp-action="Index" class="sidebar-item"><i class="fa fa-home fa-1x"></i>Home</a>
+            <a asp-controller="Home" asp-action="packages" class="sidebar-item"><i class="fa fa-map-marked-alt fa-1x"></i>Places</a>
+            <a asp-controller="Home" asp-action="about" class="sidebar-item"><i class="fa fa-info-circle fa-1x"></i>About</a>
+            <a asp-controller="Home" asp-action="feedback" class="sidebar-item"><i class="fa fa-comments fa-1x"></i>Feedback</a>
+        </nav>
+    </header>
+
+    <div class="cover-photo" id="currentPackage">
+        <img src="~/img/france_cover.webp" class="france_firstimg" alt="france_cover.webp" price="3537" />
+        <div class="text-overlay">
+            <h1>5 Days</h1>
+            <p>Starting from 3537$</p>
+            <br /><hr /><br />
+            <h1>France Tours with a Local Private Guide</h1><br />
+            <p>
+                Paris Tours with a Local Private Guide
+                The epitome of modern-day Middle Eastern opulence is found in France. On a private guided Paris tour you will be introduced to the ultra-modern city of Paeris, one of seven epitomes that make up France. From its staggering architecture and shimmering paris architecture and the marble magnificence of the Eiffel-Tower in Paris, it is sure to captivate you.
+                <br /><br /><br />
+                Using their intimate familiarity with travel to France, our Destination Experts will plan a trip that caters to your tastes and interests, creating an unforgettable trip. Our local private guides will provide exclusive access to their breathtaking country uncovering history and culture often overlooked, while our 24/7 on-the-ground support allows you to feel secure and taken care of every step of the way.
+            </p>
+
+            <button class="book" onclick="addtoCart()">Buy Now</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

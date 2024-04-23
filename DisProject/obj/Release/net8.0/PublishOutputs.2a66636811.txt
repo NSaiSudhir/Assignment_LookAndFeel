@@ -1,0 +1,7 @@
+C:\Users\asire\OneDrive\Documents\BAIS\DIS\DisProject\DisProject\DisProject\obj\Release\net8.0\PubTmp\Out\DisProject.exe
+C:\Users\asire\OneDrive\Documents\BAIS\DIS\DisProject\DisProject\DisProject\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\asire\OneDrive\Documents\BAIS\DIS\DisProject\DisProject\DisProject\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\asire\OneDrive\Documents\BAIS\DIS\DisProject\DisProject\DisProject\obj\Release\net8.0\PubTmp\Out\DisProject.dll
+C:\Users\asire\OneDrive\Documents\BAIS\DIS\DisProject\DisProject\DisProject\obj\Release\net8.0\PubTmp\Out\DisProject.deps.json
+C:\Users\asire\OneDrive\Documents\BAIS\DIS\DisProject\DisProject\DisProject\obj\Release\net8.0\PubTmp\Out\DisProject.runtimeconfig.json
+C:\Users\asire\OneDrive\Documents\BAIS\DIS\DisProject\DisProject\DisProject\obj\Release\net8.0\PubTmp\Out\DisProject.pdb

@@ -1,0 +1,114 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set favicon -->
+    <link rel="shortcut icon" href="~/img/logo1.png" type="image/png">
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="~/css/main.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Reference to JavaScript -->
+    <script src="~/js/main.js" defer></script>
+    <title>EliteEscapes</title>
+</head>
+<body>
+  
+    <!-- Hero Section -->
+    <section class="hero">
+        <video autoplay muted loop id="video-bg">
+            <source src="img/hero.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+            <h1 class="company-name">EliteEscapes</h1>
+            <p class="tagline">Witness the world</p>
+            <div class="explore-container">
+                <a asp-controller="Home" asp-action="packages">
+                <button class="explore-btn">Explore Packages</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="home" class="packages">
+
+        <a asp-controller="Home" asp-action="bali">
+            <div class="package">
+                <img src="img/bali.jpg" alt="Package 1"></a>
+            <div class="image-text">Bali</div>
+        </div></a>
+
+        <a asp-controller="Home" asp-action="france">
+        <div class="package">
+            <img  src="img/france.jpg" alt="Package 2"></a>
+            <div class="image-text">France</div>
+        </div>
+        
+        <a asp-controller="Home" asp-action="italy">
+            <div class="package">
+            <img  src="img/italy.jpg" alt="Package 3"></a>
+            <div class="image-text">Italy</div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="content-container">
+            <div class="image-container">
+                <img src="img/whyus.jpg" alt="why-choose-us">
+            </div>
+            <div class="text-container">
+                <h2>Embark with Confidence: <br /> Why Choose Us for Your Next Adventure <br /></h2>
+                <ul>
+                    <li>
+                        Personalized Experiences: Tailored itineraries crafted by experts for unforgettable adventures.
+                    </li>
+                    <li>
+                        Effortless Travel: Seamless booking, dedicated support, and meticulous planning for stress-free journeys.
+                    </li>
+                    <li>
+                        Trusted Service: Partnering with reputable vendors, stringent safety standards, and transparent pricing for peace of mind.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Feedback Section -->
+    <section class="customer-feedback">
+        <div class="feedback-overlay" id="feedback-overlay">
+            <div class="feedback-form">
+                <span class="close-btn" onclick="closeFeedbackForm()">&times;</span>
+                <h2>Feedback</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog">
+        <div class="blog-content">
+            <h2>Explore articles and travel guides from our experts.</h2>
+            <a href="https://eliteescapesblog.blogspot.com/" class="blog-btn"> Elite Escapes</a>
+        </div>
+    </section>
+
+    
+</body>
+</html>

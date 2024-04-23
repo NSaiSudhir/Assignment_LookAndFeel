@@ -1,0 +1,201 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Set favicon -->
+    <link rel="shortcut icon" href="~/img/logo1.png" type="image/png">
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="~/css/main.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Reference to JavaScript -->
+    <script src="~/js/main.js" defer></script>
+    <title>EliteEscapes</title>
+</head>
+<body>
+<div style="width:100%">
+    <section id="home" class="packages">
+        <div class="package">
+                <a asp-controller="Home" asp-action="bali">
+                <img src="~/img/bali.jpg" alt="Package 1">
+                <div class="image-text">Bali</div>
+                <div class="price">$2045</div>
+            </a>
+
+        </div>
+        <div class="package">
+                <a asp-controller="Home" asp-action="france">
+                <img src="~/img/france.jpg" alt="Package 2">
+                <div class="image-text">France</div>
+                <div class="price">$3537</div>
+            </a>
+        </div>
+        <div class="package">
+                <a asp-controller="Home" asp-action="italy">
+                <img src="~/img/italy.jpg" alt="Package 3" href="">
+                <div class="image-text">Italy</div>
+                <div class="price">$2526</div>
+            </a>
+        </div>
+
+        <div class="package">
+                <a asp-controller="Home" asp-action="dublin">
+                <img src="~/img/dublin.jpg" alt="Package 4">
+                <div class="image-text">Dublin</div>
+                <div class="price">$2175</div>
+            </a>
+        </div>
+        <div class="package">
+                <a asp-controller="Home" asp-action="dubai">
+                    <img src="~/img/dubai.jpg" alt="Package 5">
+                <div class="image-text">Dubai</div>
+                <div class="price">$3473</div>
+            </a>
+        </div>
+    </section>
+</div>
+<br />
+<br />
+<hr /><br />
+<h2 style="text-align:center;">Some Useful Analytics</h2>
+<br />
+<br />
+<div class="graph-container">
+    <div class="graph" style="width: 500px;">
+        <canvas id="visitorChart"></canvas>
+    </div>
+</div>
+
+
+    <br />
+    <br />
+    <div class="graph-container">
+        <div class="graph" style="width: 500px;">
+            <canvas id="weatherChart"></canvas>
+        </div>
+    </div>
+
+
+
+    <br />
+    <br />
+    <div class="graph-container">
+        <div class="graph" style="width: 500px;">
+            <canvas id="budgetChart"></canvas>
+        </div>
+    </div>
+<script>
+
+
+
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+
+            const destinations = ['Dubai', 'Dublin', 'Italy' ,'France','Bali'];
+            const historicalData = [27, 6.2, 10, 9, 25 ]; // Historical temperature in Celsius
+            const forecastedData = [29, 8, 12, 9, 23]; // Forecasted temperature in Celsius
+
+            // Create a bar chart using Chart.js
+            const ctx1 = document.getElementById('weatherChart').getContext('2d');
+            const weatherChart = new Chart(ctx1, {
+                type: 'bar',
+                data: {
+                    labels: destinations,
+                    datasets: [
+                        {
+                            label: 'Historical Temperature (°C)',
+                            data: historicalData,
+                            backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                            borderWidth: 1
+                        },
+                        {
+                            label: 'Forecasted Temperature (°C)',
+                            data: forecastedData,
+                            backgroundColor: 'rgba(255, 99, 132, 0.6)',
+                            borderWidth: 1
+                        }
+                    ]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Temperature (°C)'
+                            }
+                        }
+                    }
+                }
+            });
+
+
+
+            var ctx = document.getElementById('budgetChart').getContext('2d');
+            var budgetChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Dubai', 'Dublin', 'France', 'Italy', 'Bali',],
+                    datasets: [{
+                        label: 'Estimated Budget($)',
+                        data: [3473, 2175, 3537, 2526, 2045],
+                        backgroundColor: 'rgba(0, 103, 71, 0.5)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Budget ($)'
+                            }
+
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Destinations'
+                            }
+                        }
+
+                    }
+                }
+            });
+
+
+        var ctx = document.getElementById('visitorChart').getContext('2d');
+        var visitorChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Dubai', 'Dublin', 'France', 'Italy', 'Bali',],
+                datasets: [{
+                    label: 'Number of Bookings',
+                    data: [410, 200, 170, 259, 300, 190],
+                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    });</script>
+</body>
+</html>

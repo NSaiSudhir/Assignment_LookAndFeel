@@ -1,0 +1,330 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\views\\home\\bookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\views\\home\\bookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\wwwroot\\css\\bookings.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\wwwroot\\css\\bookings.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\views\\home\\dublin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\views\\home\\dublin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\wwwroot\\css\\feedback.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\wwwroot\\css\\feedback.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\views\\home\\packages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\views\\home\\packages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\views\\home\\dubai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\views\\home\\dubai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\views\\home\\france.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\views\\home\\france.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\views\\home\\italy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\views\\home\\italy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\views\\home\\bali.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\views\\home\\bali.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|c:\\users\\asire\\onedrive\\documents\\bais\\dis\\disproject\\disproject\\disproject\\views\\home\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D5F4FA-9FFF-4A34-8622-AC44A1F8EDE7}|DisProject\\DisProject.csproj|solutionrelative:disproject\\views\\home\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bookings.cshtml",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\bookings.cshtml",
+              "RelativeDocumentMoniker": "DisProject\\Views\\Home\\bookings.cshtml",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\bookings.cshtml",
+              "RelativeToolTip": "DisProject\\Views\\Home\\bookings.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAADIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T19:30:47.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "packages.cshtml",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\packages.cshtml",
+              "RelativeDocumentMoniker": "DisProject\\Views\\Home\\packages.cshtml",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\packages.cshtml",
+              "RelativeToolTip": "DisProject\\Views\\Home\\packages.cshtml",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAqwIcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T18:54:00.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "feedback.css",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\wwwroot\\css\\feedback.css",
+              "RelativeDocumentMoniker": "DisProject\\wwwroot\\css\\feedback.css",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\wwwroot\\css\\feedback.css",
+              "RelativeToolTip": "DisProject\\wwwroot\\css\\feedback.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-22T19:58:33.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dublin.cshtml",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\dublin.cshtml",
+              "RelativeDocumentMoniker": "DisProject\\Views\\Home\\dublin.cshtml",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\dublin.cshtml",
+              "RelativeToolTip": "DisProject\\Views\\Home\\dublin.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T19:04:40.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "bookings.css",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\wwwroot\\css\\bookings.css",
+              "RelativeDocumentMoniker": "DisProject\\wwwroot\\css\\bookings.css",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\wwwroot\\css\\bookings.css",
+              "RelativeToolTip": "DisProject\\wwwroot\\css\\bookings.css",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAJYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-23T03:46:21.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\wwwroot\\css\\main.css",
+              "RelativeDocumentMoniker": "DisProject\\wwwroot\\css\\main.css",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\wwwroot\\css\\main.css",
+              "RelativeToolTip": "DisProject\\wwwroot\\css\\main.css",
+              "ViewState": "AQIAAMgCAAAAAAAAAAAAANACAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-22T19:58:23.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Program.cs",
+              "RelativeDocumentMoniker": "DisProject\\Program.cs",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Program.cs",
+              "RelativeToolTip": "DisProject\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T20:13:21.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DisProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DisProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAqwB8AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T18:40:32.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DisProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DisProject\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAcwDQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T18:51:42.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dubai.cshtml",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\dubai.cshtml",
+              "RelativeDocumentMoniker": "DisProject\\Views\\Home\\dubai.cshtml",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\dubai.cshtml",
+              "RelativeToolTip": "DisProject\\Views\\Home\\dubai.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T19:04:25.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "france.cshtml",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\france.cshtml",
+              "RelativeDocumentMoniker": "DisProject\\Views\\Home\\france.cshtml",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\france.cshtml",
+              "RelativeToolTip": "DisProject\\Views\\Home\\france.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T19:05:43.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "italy.cshtml",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\italy.cshtml",
+              "RelativeDocumentMoniker": "DisProject\\Views\\Home\\italy.cshtml",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\italy.cshtml",
+              "RelativeToolTip": "DisProject\\Views\\Home\\italy.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T19:05:17.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DisProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DisProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAqwCgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T18:41:18.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "bali.cshtml",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\bali.cshtml",
+              "RelativeDocumentMoniker": "DisProject\\Views\\Home\\bali.cshtml",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\bali.cshtml",
+              "RelativeToolTip": "DisProject\\Views\\Home\\bali.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T19:05:01.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "DisProject\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "DisProject\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-22T19:58:26.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "about.cshtml",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\about.cshtml",
+              "RelativeDocumentMoniker": "DisProject\\Views\\Home\\about.cshtml",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\about.cshtml",
+              "RelativeToolTip": "DisProject\\Views\\Home\\about.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T19:03:52.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "DisProject\\wwwroot\\js\\main.js",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "DisProject\\wwwroot\\js\\main.js",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAqwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-22T19:32:34.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "feedback.cshtml",
+              "DocumentMoniker": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\feedback.cshtml",
+              "RelativeDocumentMoniker": "DisProject\\Views\\Home\\feedback.cshtml",
+              "ToolTip": "C:\\Users\\asire\\OneDrive\\Documents\\BAIS\\DIS\\DisProject\\DisProject\\DisProject\\Views\\Home\\feedback.cshtml",
+              "RelativeToolTip": "DisProject\\Views\\Home\\feedback.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T19:06:16.06Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
